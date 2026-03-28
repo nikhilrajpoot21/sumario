@@ -3,7 +3,7 @@ import { Sparkles } from "lucide-react";
 
 export default function UploadPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-teal-100 to-white flex flex-col items-center justify-center px-4">
+    <div className="min-h-screen bg-linear-to-b from-teal-100 to-white flex flex-col items-center justify-center px-4">
       {/* Top badge */}
       <button className="flex items-center gap-2 px-4 py-2 bg-transparent rounded-full text-sm font-medium shadow-md mb-6 border-black border-1 text-black">
         <Sparkles className="w-5 h-5 text text-red-700 animate-pulse bg-transparent"/>
